@@ -29,14 +29,17 @@ const Navbar = () => {
               <Items
                 className=" font-primaryFont font-normal text-sm text-gray-100 hover:font-bold hover:text-black-100"
                 itemName="Home"
+                harf="/"
               />
               <Items
                 className=" font-primaryFont font-normal text-sm text-gray-100 hover:font-bold hover:text-black-100"
                 itemName="Shop"
+                harf="/product"
               />
               <Items
                 className=" font-primaryFont font-normal text-sm text-gray-100 hover:font-bold hover:text-black-100"
                 itemName="About"
+                harf="/about"
               />
               <Items
                 className=" font-primaryFont font-normal text-sm text-gray-100 hover:font-bold hover:text-black-100"
@@ -45,6 +48,7 @@ const Navbar = () => {
               <Items
                 className="font-primaryFont font-normal text-sm text-gray-100 hover:font-bold hover:text-black-100"
                 itemName="Contacts"
+                harf="/contact"
               />
             </List>
           </div>
